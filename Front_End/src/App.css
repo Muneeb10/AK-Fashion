@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Custom utility to hide scrollbar */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+
+
+@media (max-width: 768px) { /* or your preferred breakpoint */
+  body, html {
+    overflow-x: hidden;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-30%); /* Start from right */
+  }
+  100% {
+    transform: translateX(50%); /* Move to left */
+  }
+}
+
+.animate-slide {
+  display: inline-block;
+  animation: slide 50s linear infinite;
+}
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 89aafe2c0f7432b9886a8d293789e650e0947c69
