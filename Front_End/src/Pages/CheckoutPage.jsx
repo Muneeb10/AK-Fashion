@@ -346,8 +346,8 @@ const CheckoutPage = () => {
                               className="w-16 h-16 object-cover"
                             />
                             <div className="ml-4">
-                              <h2 className="text-lg font-semibold text-gray-800">Muhammad Usman</h2>
-                              <p className="text-gray-600 text-sm">0344-7191881</p>
+                              <h2 className="text-lg font-semibold text-gray-800">Abdullah Nadeem</h2>
+                              <p className="text-gray-600 text-sm">0322-4095963</p>
                             </div>
                           </div>
                         </div>
